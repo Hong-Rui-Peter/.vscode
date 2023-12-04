@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "iosfwd": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "string_view": "cpp",
+        "cmath": "cpp",
+        "iomanip": "cpp",
+        "numeric": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp",
+        "valarray": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled",
+    "code-runner.runInTerminal": true,
+    "java.debug.settings.onBuildFailureProceed": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none",
+    "dotnet.defaultSolution": "c#\\c#.sln"
+}
