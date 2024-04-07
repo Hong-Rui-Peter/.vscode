@@ -45,8 +45,8 @@
             "name": "Java",
             "type": "java",
             "request": "launch",
-            "mainClass": "java",
-            "projectName": "programming language_b1e33829"
+            "mainClass": "",
+            "projectName": ""
         },
         {
             "name": "Python",
