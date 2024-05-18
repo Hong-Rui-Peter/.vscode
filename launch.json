@@ -1,60 +1,61 @@
 {
-    "version": "0.2.0",
-    "configurations": [
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceRoot}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\Program Files\\MinGW\\bin\\gdb.exe",
+      "setupCommands": [
         {
-            "name": "C/C++",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceRoot}/${fileBasenameNoExtension}.exe",
-            "args": [],
-            "stopAtEntry": true,
-            "cwd": "${workspaceRoot}",
-            "environment": [],
-            "externalConsole": true,
-            "MIMode": "gdb",
-            "miDebuggerPath": "C:\\Program Files\\MinGW\\bin\\gdb.exe",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ],
-            "preLaunchTask": "build"
-        },
-        {
-            "name": "C#",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}/c#/bin/Debug/net7.0/c#.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/c#",
-            "console": "internalConsole",
-            "stopAtEntry": false
-        },
-        {
-            "name": "Golang",
-            "type": "go",
-            "request": "launch",
-            "mode": "debug",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        },
-        {
-            "name": "Java",
-            "type": "java",
-            "request": "launch",
-            "mainClass": "",
-            "projectName": ""
-        },
-        {
-            "name": "Python",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "internalConsole",
-            "justMyCode": true
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
         }
-    ]
+      ],
+      "preLaunchTask": "build"
+    },
+    {
+      "name": "C#",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/c#/bin/Debug/net7.0/c#.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/c#",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Golang",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Java",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "",
+      "projectName": ""
+    },
+    {
+      "name": "Python",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      // "console": "internalConsole",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+  ]
 }
